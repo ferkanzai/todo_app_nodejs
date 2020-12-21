@@ -1,0 +1,36 @@
+{
+  "name": "todo_app_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferkanzai/todo_app_nodejs.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Bootcamp",
+    "TODO App",
+    "Express",
+    "JavaScript"
+  ],
+  "author": "Fernando Carmona",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ferkanzai/todo_app_nodejs/issues"
+  },
+  "homepage": "https://github.com/ferkanzai/todo_app_nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "morgan": "^1.10.0"
+  }
+}

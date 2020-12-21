@@ -1,0 +1,31 @@
+[
+  { "id": 1, "title": "Hacer la cena", "category": 1, "description": "Quiero comer burritos" },
+  { "id": 2, "title": "Correr 100km", "category": 2, "description": "Reventarme las piernas" },
+  { "id": 3, "title": "Ir a un monólogo", "category": 3, "description": "Ver a Dani Rovira" },
+  {
+    "id": 4,
+    "title": "Llorar mientras programo",
+    "category": 4,
+    "description": "Aprender Python en un día"
+  },
+  { "id": 5, "title": "Comprar costillas", "category": 1, "description": "Para el domingo" },
+  { "id": 6, "title": "Pintar las paredes", "category": 3, "description": "Why not?" },
+  { "id": 7, "title": "San Silvestre", "category": 2, "description": "Acabar bien el año" },
+  { "id": 8, "title": "Vuelta al anillo verde ciclista", "category": 2, "description": "65 km" },
+  { "id": 9, "title": "Comprar huevos", "category": 1, "description": "Para una tortilla" },
+  {
+    "id": 10,
+    "title": "Ver la final del UK Championship",
+    "category": 3,
+    "description": "Snooker!!"
+  },
+  {
+    "id": 11,
+    "title": "Generar calendario de Enero",
+    "category": 4,
+    "description": "Organización"
+  },
+  { "id": 12, "title": "Pedir vacaciones", "category": 4, "description": "Organización" },
+  { "id": 13, "title": "Pintar un cuadro", "category": 3, "description": "Mente en blanco" },
+  { "id": 14, "title": "Gran Canaria", "category": 5, "description": "viaje genial" }
+]
