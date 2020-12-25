@@ -13,19 +13,19 @@ router.get('/', async (req, res, next) => {
     if (!page) {
       page = 1;
     }
-    console.log(category);
+    // console.log(category);
     const reqPage = getAsNumber(page, 1);
     const reqCategory = getAsNumber(category, undefined);
-    console.log(reqCategory);
+    // console.log(reqCategory);
 
-    const startIndex = reqPage * TODOS_PER_PAGE - TODOS_PER_PAGE;
+    const startIndex = (reqPage - 1) * TODOS_PER_PAGE;
     const endIndex = reqPage * TODOS_PER_PAGE;
 
     const todos = await read(todosDbPath);
     const categories = await read(categoriesDbPath);
 
     if (category) {
-      console.log(true);
+      // console.log(true);
       const todosFiltered = todos
         .filter((el) => el.category === reqCategory)
         .reduce((acc, current) => {
@@ -133,8 +133,6 @@ router.put('/modify/:id', async (req, res, next) => {
     next(error);
   }
 });
-
-// TODO: DELETE endpoint
 
 router.delete('/delete/:id', async (req, res, next) => {
   try {
